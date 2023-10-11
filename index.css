@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-div{
+    background-image: linear-gradient(150deg, rgb(10, 246, 235), rgb(25, 255, 121));
+}
+
+.myimage{
+    width: auto;
+    height: 300px;
+}
+.menu ul {
+    list-style-type: none;  
+    padding: 0; 
+    margin: 0;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+
+.menu ul a {
+    padding: 10px; 
+    background-color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    
+}
+
+.menu ul a:hover{
+    background-color: green;
+    color: white;
+    padding: 12px 24px;
+    transition: 0.5s ease-in-out;
+    font-size: 35px;
+    
+}
+
+.img-heading-links:hover{
+    transition: 0.9s ease-in-out;
+}
+.menu ul  a { 
+    text-decoration: none; 
+}
+
+
+
+.img-heading-links{
+    text-align: center;
+}
+
+.name{
+    color: rgb(46, 49, 255);
+}
+.social-links ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.social-links ul a {
+    padding: 10px;
+}
+
+.introduction{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    padding: 16px 32px;
+    border-radius: 32px;
+    
+}
+.dash{
+    height: 30px;
+}
+
+.myimage{
+    margin-top: 20px;
+    border-radius: 300px;
+}
