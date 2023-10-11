@@ -6,22 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Md Moqaddas</title>
     <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
 </head>
 
 <body>
     <div class="body-div">
+
+        <!-- menu button for mobile view-->
+
+        <div class="list-container">
+            <button class="more-button" aria-label="Menu Button">
+                <div class="menu-icon-wrapper">
+                    <div class="menu-icon-line half first"></div>
+                    <div class="menu-icon-line"></div>
+                    <div class="menu-icon-line half last"></div>
+                </div>
+            </button>
+            <ul class="more-button-list">
+                <a href="index.html" class="more-button-list-item">
+
+                    <span>Home</span>
+                </a>
+                <a href="work-experience.html" class="more-button-list-item">
+
+                    <span>Work Experience</span>
+                </a>
+                <a href="projects.html" class="more-button-list-item">
+
+                    <span>Projects</span>
+                </a>
+                <a href="skills.html" class="more-button-list-item">
+
+                    <span>Skills</span>
+                </a>
+                <a href="achievements.html" class="more-button-list-item">
+
+                    <span>Achievements</span>
+                </a>
+                <a href="resume.html" class="more-button-list-item">
+
+                    <span>Resume</span>
+                </a>
+                <a href="contact.html" class="more-button-list-item">
+
+                    <span>Contact</span>
+                </a>
+                </d>
+        </div>
+        <!-- end icon -->
         <div class="menu">
             <ul>
-                 <a href="#">Home</a>  
-                 <a href="work-experience.html">Work Experience</a>  
-                 <a href="projects.html">Projects</a>  
-                 <a href="skills.html">Skills</a>  
-                 <a href="achievements.html">Achievements</a>  
-                 <a href="resume.html">Resume</a>  
-                 <a href="contact.html">Contact</a>  
+                <a href="#">Home</a>
+                <a href="work-experience.html">Work Experience</a>
+                <a href="projects.html">Projects</a>
+                <a href="skills.html">Skills</a>
+                <a href="achievements.html">Achievements</a>
+                <a href="resume.html">Resume</a>
+                <a href="contact.html">Contact</a>
             </ul>
         </div>
         <div class="img-heading-links">
@@ -30,22 +77,43 @@
 
             <div class="social-links">
                 <ul>
-                      <a href="https://www.linkedin.com/in/mdmoqaddas/"><i class="fab fa-linkedin" style="color: #691cf7;"></i>  </a>
-                      <a href="https://github.com/MDMOQADDAS"><i class="fab fa-github" style="color: #691cf7;"></i>  </a>
-                      <a href="https://medium.com/@mdmoqaddas"><i class="fa-brands fa-medium" style="color: #691cf7;"></i> </a>
-                      <a href="https://twitter.com/mdmoqaddas11"><i class="fab fa-twitter" style="color: #691cf7;"></i>  </a>
-                      <a href="https://www.instagram.com/moqaddas11/"><i class="fab fa-instagram" style="color: #691cf7;"></i>  </a>
-                      <a href="https://www.facebook.com/mdmoqaddas786/"><i class="fab fa-facebook" style="color: #691cf7;"></i>  </a>
+                    <a href="https://www.linkedin.com/in/mdmoqaddas/"><i class="fab fa-linkedin"
+                            style="color: #691cf7;"></i> </a>
+                    <a href="https://github.com/MDMOQADDAS"><i class="fab fa-github" style="color: #691cf7;"></i> </a>
+                    <a href="https://medium.com/@mdmoqaddas"><i class="fa-brands fa-medium" style="color: #691cf7;"></i>
+                    </a>
+                    <a href="https://twitter.com/mdmoqaddas11"><i class="fab fa-twitter" style="color: #691cf7;"></i>
+                    </a>
+                    <a href="https://www.instagram.com/moqaddas11/"><i class="fab fa-instagram"
+                            style="color: #691cf7;"></i> </a>
+                    <a href="https://www.facebook.com/mdmoqaddas786/"><i class="fab fa-facebook"
+                            style="color: #691cf7;"></i> </a>
                 </ul>
             </div>
         </div>
         <div class="introduction">
             <p>
-                I am a seasoned DevOps Engineer with over three years of industry experience specializing in modernizing infrastructure, enhancing operational efficiency, and ensuring the reliability of mission-critical systems. My focus has been on distributed cloud-native systems, observability, and implementing automation strategies. I am well-versed in essential DevOps tools, such as Terraform, Jenkins, Ansible, and Kubernetes, and have a proven track record of achieving high uptime for crucial systems. My dedication to optimizing development processes and collaborating with cross-functional teams positions me as an ideal candidate to contribute to the growth and success of Organization.
+                I am a seasoned DevOps Engineer with over three years of industry experience specializing in modernizing
+                infrastructure, enhancing operational efficiency, and ensuring the reliability of mission-critical
+                systems. My focus has been on distributed cloud-native systems, observability, and implementing
+                automation strategies. I am well-versed in essential DevOps tools, such as Terraform, Jenkins, Ansible,
+                and Kubernetes, and have a proven track record of achieving high uptime for crucial systems. My
+                dedication to optimizing development processes and collaborating with cross-functional teams positions
+                me as an ideal candidate to contribute to the growth and success of Organization.
             </p>
         </div>
-        <div class="dash" ></div>
+        <div class="dash"></div>
+
+
+
     </div>
+    <script>
+        document.querySelector(".more-button").addEventListener("click", function () {
+            document.querySelector(".list-container").classList.toggle("active");
+        });
+
+
+    </script>
 </body>
 
 </html>
