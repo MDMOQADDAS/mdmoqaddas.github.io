@@ -81,7 +81,8 @@
     
 }
 .dash{
-    height: 30px;
+  height: 30px;
+ 
 }
 
 .myimage{
@@ -108,9 +109,11 @@
         
     }
     .list-container{
-        left: 80%;
+      width: 50px;
+         left: 80%; 
         display: block;
     }
+   
   }
 
 
