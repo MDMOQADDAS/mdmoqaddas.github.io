@@ -1,0 +1,43 @@
+.experience-div{
+  
+}
+
+.experience1{
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    padding: 32px 64px;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(72, 78, 255);
+    border-radius: 50%;
+}
+.experience-details{
+    margin-left: 30px;
+    width: 100%;
+    
+}
+.postion-period{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.postion-period p{
+    margin-top: 10px;
+    
+}
+.experience-description ul li{
+    text-align: justify;
+    margin-top: 10px;
+}
+@media screen and (max-width: 800px) {
+    .experience1{
+        padding: 8px 16px;
+    }   
+     .experience-details{
+        margin-left: 10px;
+    }
+}
